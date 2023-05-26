@@ -6,10 +6,10 @@ interface Props{
 	amount:number;
 	category:string;}[];
 	handletDeleteExpense:(expenseId:number)=>void;
-	selectedCategory:string;
+	
 
 }
-const ExpenseList = ({expenses,handletDeleteExpense,selectedCategory}:Props) => {
+const ExpenseList = ({expenses,handletDeleteExpense}:Props) => {
 	if (expenses.length === 0) {return null;}
 	
 	//console.log(filteredExpenses)

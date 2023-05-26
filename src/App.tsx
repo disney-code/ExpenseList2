@@ -42,7 +42,7 @@ const visibleExpenses = selectedCategory1
     <div className="mb-3">
       
     <ExpenseFilter category={selectedCategory1} onCategoryChange={(categorySelected)=>{setSelectedCategory(categorySelected)}}/>
-    <ExpenseList expenses={visibleExpenses} handletDeleteExpense={handleDeleteExpense1} selectedCategory={selectedCategory1}/>
+    <ExpenseList expenses={visibleExpenses} handletDeleteExpense={handleDeleteExpense1}/>
     </div>
        
     
