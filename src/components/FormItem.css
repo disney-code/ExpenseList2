@@ -1,0 +1,14 @@
+.select-wrapper {
+	position: relative;
+      }
+
+.select-wrapper select {
+	padding-right: 30px; /* Add some padding on the right side to make room for the icon */
+      }
+      
+.select-wrapper .dropdown-icon {
+	position: absolute;
+	top: 50%;
+	right: 10px;
+	transform: translateY(-50%);
+      }

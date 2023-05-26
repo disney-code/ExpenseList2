@@ -1,0 +1,15 @@
+table {
+	border-collapse: collapse;
+	border: 1px solid black;
+      }
+
+      table th {
+	border: 1px solid black;
+	padding: 8px;
+      }
+      
+      /* Target the table cells (td) */
+      table td {
+	border: 1px solid black;
+	padding: 8px;
+      }
